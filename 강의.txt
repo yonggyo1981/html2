@@ -50,3 +50,15 @@ img - 이미지를 불러오는 태그
 	
  - 상대 경로 
     현재 파일이 위치한 경로 기준으로 상대적인 경로
+	
+div
+span
+
+시멘틱 태그
+<header></header>
+<nav></nav>
+<footer></footer>
+<adress></address>
+
+
+양식 태그
