@@ -51,3 +51,33 @@ html2
 
 회원가입 양식
 
+
+align - 가로 정렬(왼쪽 - left, 가운데 - center, 오른쪽 - right)
+valign - 수직 정렬(위 - top, 가운데 - middle, 아래 - bottom)
+
+
+&nbsp; -> 공백 1개 
+&amp;   -> &
+&lt;  --> <
+&gt; --> >
+
+ul - unordered list -> 순서가 없는 목록 
+ol - ordered list -> 순서가 있는 목록
+dl - dt, dd 
+
+
+a 
+	- href - 링크 이동 
+	- target - 이동할 창
+					_self - 현재 창(기본값)
+					_blank - 새 창
+					
+					내부 창의 name 값
+					
+내부 창은 같은 페이지 하부의 iframe 
+
+padding - 내부여백
+margin - 외부여백 
+
+align - 가로정렬 - left, right, center
+valign - 수직정렬- top, middle, bottom
