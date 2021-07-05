@@ -82,3 +82,30 @@ form - 양식, 신청서
 <fieldset>
 	<legend>그룹 제목</legend>
 </fieldset>
+
+<label></label>
+
+id - checkbox, radio
+for - label
+
+select 
+multiple - 여러개 선택 가능
+size - 한번에 노출할 갯수
+
+특정 option을 선택 할때 - selected
+
+type
+	- submit - 양식 제출 버튼
+	- button - 일반적인 버튼
+	- reset - 양식 취소 버튼
+	
+<input type='submit|button|reset' value='버튼명'>
+
+<button type='submit|button|reset'>버튼명</button>
+
+
+type
+	- image  - 제출 버튼(이미지 제출버튼 - submit와 동일한 기능)
+	     + src 속성 -> 이미지 경로
+		 
+<input type="image" src="이미지 경로">
