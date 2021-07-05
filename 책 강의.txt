@@ -34,3 +34,25 @@ red, blue, green, yellow
 4. RGBA
 		A - 알파채널 (투명도) 0 ~ 1 
 		0에 가까울 수록 투명, 1에 가까울수록 불투명
+		
+table
+	th, td 
+		rowspan - 행 병합
+		colspan - 열 병합
+
+		align - 가로정렬(left, right, center)
+		valign - 수직정렬(top, middle, bottom)
+		
+img
+	src - 이미지 경로 
+	width
+	height
+	alt - alternative text(대체문구)
+	
+body
+	bgcolor 전체 배경색
+	text - 글꼴 색 
+	link - a 태그 링크 기본 색상 
+	vlink - a 태그 링크 이동 후 색상
+	alink - a 태그를 클릭할때 색상
+	
