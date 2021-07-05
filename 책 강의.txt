@@ -56,3 +56,29 @@ body
 	vlink - a 태그 링크 이동 후 색상
 	alink - a 태그를 클릭할때 색상
 	
+../ -> 상위 폴더로 이동
+
+form - 양식, 신청서
+
+<form method='' action=''>
+
+</form>
+
+- method - 전송 방식(GET, POST)
+	<a href='/goods_list?cateCd=032&brandCd=001'></a>
+	쿼리스트링
+
+- action - 양식 데이터를 처리할 URL 
+- enctype -> 파일을 업로드 할때 
+	(enctype='multipart/form-data')
+	
+- target
+		- _self  (현재 창)
+		_ _blank (새창)
+		_ 내부 창의 name 속성 값
+
+
+그룹화 태그
+<fieldset>
+	<legend>그룹 제목</legend>
+</fieldset>
