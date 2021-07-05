@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+	</head>
+	<body>
+		<h1>* 저희 profile 입니다 *</h1>
+		<hr>
+		<form>
+			<ul>
+				<li>이 름 : <input type='text' name='name'></li>
+				<li>
+					성 별 : 
+					<input type='radio' name='gender' value='남' id='gender1'>
+					<label for='gender1'>남</label>
+					
+					<input type='radio' name='gender' value='여' id='gender2'>
+					<label for='gender2'>여</label>
+				</li>
+				<li>
+					생년월일(Date) : 
+					<input type='date' name='birthDt'>
+				</li>
+				<li>
+					e-mail : 
+					<input type='email' name='email' placeholder="***@***">
+				</li>
+				<li>
+					blog URL : 
+					<input type='text' name='blogUrl' placeholder="http://">
+					<hr width='70%' align='left'>
+				</li>
+				<li>
+					핸드폰NO :
+					<select name='mobile1'>
+						<option value='010'>010</option>
+						<option value='011'>011</option>
+						<option value='019'>019</option>
+						<option value='070'>070</option>
+					</select> 
+					- 
+					<input type='text' name='mobile2' size='4'>
+					-
+					<input type='text' name='mobile3' size='4'>
+				</li>
+				<li>
+					신장(cm) : 
+					<input type='number' name='height'>
+				</li>
+				<li>
+					몸무게(kg) : 
+					55kg 
+					<input type='range' name='weight' min='55' max='130'>
+					130kg
+				</li>
+			</ul>
+			<hr>
+			<span>참고사항:</span>
+			<textarea rows='5' cols='100'>참고사항....</textarea>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+	</head>
+	<body>
+		<form method='GET' action=''>
+			<fieldset>
+				<legend>선호도 조사</legend>
+				이름 : <input type='text' name='name'>
+				<hr width='70%' align='left'>
+				<table border='1'>
+					<tr>
+						<td>연령선택</td>
+						<td>
+							<input type='radio' name='year' value='10' id='year_10'>
+							<label for='year_10'>10대</label>
+							
+							<input type='radio' name='year' value='20' id='year_20' checked>
+							<label for='year_20'>20대</label>
+							
+							<input type='radio' name='year' value='30' id='year_30'>
+							<label for='year_30'>30대</label>
+						</td>
+					</tr>
+					<tr>
+						<td>취미선택</td>
+						<td align='center'>
+							<select name='hobby'>
+								<option value='독서'>독서</option>
+								<option value='수영'>수영</option>
+								<option value='축구'>축구</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>도시선택</td>
+						<td align='center'>
+							<select name='city' size='3'>
+								<option value='서울'>서울</option>
+								<option value='인천'>인천</option>
+								<option value='경기'>경기</option>
+								<option value='수원'>수원</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</body>
+</html>
