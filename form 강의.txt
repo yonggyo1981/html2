@@ -34,5 +34,20 @@ radio, checked -> 값을 선택하는 속성 checked
 select에서 값을 선택하는 속성 -> selected (option 태그에 정의)
 
 
+textarea 
+		- rows  - 영역을 몇줄 만큼 늘릴 것인지 
+		- cols  - 영역을 몇칸 만큼 늘릴 것인지
+
+input
+	type - 버튼관련 타입
+	submit(양식제출)|button(일반버튼)|reset(양식 취소)
+
+placeholder - 안내문구
+
+깃 허브 
+https://github.com/yonggyo1981
+
+html2
+
 회원가입 양식
 

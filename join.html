@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>회원 가입</title>
+	</head>
+	<body>
+		<!--
+		1. 회원명
+		2. 아이디
+		3. 비밀번호 + 비밀번호 확인
+		4. 이메일
+		5. 휴대폰번호
+		6. 취미
+		7. 생년월일
+		8. 자기소개
+		-->
+		<form method='POST' action='/join'>
+			<dl>
+				<dt>회원명</dt>
+				<dd>
+					<input type='text' name='memNm'>
+				</dd>
+			</dl>
+			<dl>
+				<dt>아이디</dt>
+				<dd>
+					<input type="text" name="memId">
+				</dd>
+			</dl>
+			<dl>
+				<dt>비밀번호</dt>
+				<dd>
+					<input type="password" name="memPw">
+				</dd>
+			</dl>
+			<dl>
+				<dt>비밀번호 확인</dt>
+				<dd>
+					<input type="password" name="memPwRe">
+				</dd>
+			</dl>
+			<dl>
+				<dt>이메일</dt>
+				<dd>
+					<input type="email" name="email">
+				</dd>
+			</dl>
+			<dl>
+				<dt>휴대폰번호</dt>
+				<dd>
+					<input type='text' name='cellPhone'>
+				</dd>
+			</dl>
+			<dl>
+				<dt>취미</dt>
+				<dd>
+					<input type='checkbox' name='hobby' value='등산'>
+					등산
+					<input type='checkbox' name='hobby' value='수영'>
+					수영
+					<input type='checkbox' name='hobby' value='축구'>
+					축구
+					<input type='checkbox' name='hobby' value='농구'>
+					농구
+					<input type='checkbox' name='hobby' value='기타'>
+					기타
+				</dd>
+			</dl>
+			<dl>
+				<dt>생년월일</dt>
+				<dd>
+					<input type='date' name='birthDt'>
+				</dd>
+			</dl>
+			<dl>
+				<dt>자기소개</dt>
+				<dd>
+					<textarea name='intro' rows='5' cols='100'></textarea>
+				</dd>
+			</dl>
+			<input type="reset" value="취소하기">
+			<input type='submit' value="가입하기">
+		</form>
+	</body>
+</html>
